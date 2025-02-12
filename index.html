@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--JS SETUP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Animation Style -->
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- Add style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+  <div class="container">
+    <h1>JavaScript Operators</h1>
+
+    <div>
+        <h2>Arithmetic Operators</h2>
+        <p>Exponent (10^2): <output id="result1"></output></p>
+        <p>Modulo (20 % 10): <output id="result2"></output></p>
+        <button class="btn btn-primary" onclick="document.getElementById('result1').innerHTML = 10 ** 2; 
+        document.getElementById('result2').innerHTML = 20 % 10;">Show Answer</button>
+    </div>
+
+    <div>
+        <h2>Comparison Operators</h2>
+        <p>Is 20 greater than 10? <output id="result3"></output></p>
+        <p>Is 20 equal to 10? <output id="result4"></output></p>
+        <button class="btn btn-primary" onclick="document.getElementById('result3').innerHTML = 20 > 10; 
+        document.getElementById('result4').innerHTML = 20 == 10;">Show Answer</button>
+    </div>
+
+    <div>
+        <h2>Logical Operators</h2>
+        <p>True OR False: <output id="result5"></output></p>
+        <p>True AND False: <output id="result6"></output></p>
+        <button class="btn btn-primary" onclick="document.getElementById('result5').innerHTML = true | false; 
+        document.getElementById('result6').innerHTML = true && false;">Show Answer</button>
+    </div>
+
+    <button class="btn btn-warning" onclick="location.reload();">Refresh</button>
+
+</body>
+</html>

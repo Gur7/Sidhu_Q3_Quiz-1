@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  margin: 50 px;
+  padding: 50 px;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
